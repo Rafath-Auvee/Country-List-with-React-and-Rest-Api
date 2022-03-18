@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
-import React, { useState, useEffect } from 'react';
-import Country from "./components/Country/Country";
+import React from 'react';
+
 import Countries from "./components/Countries/Countries";
 function App() {
-  
+
   return (
     <div className="App">
       {/* <LoadContries></LoadContries> */}
