@@ -2,13 +2,14 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import Country from "./components/Country/Country";
-
+import Countries from "./components/Countries/Countries";
 function App() {
   
   return (
     <div className="App">
       {/* <LoadContries></LoadContries> */}
-      <Country></Country>
+      <Countries></Countries>
+      
     </div>
   );
 }
@@ -49,4 +50,4 @@ function App() {
 //   )
 // }
 
-// export default App;
+export default App;
