@@ -16,11 +16,12 @@ const Countries = () => {
         <div className="parameters">
             <h1>Country Name</h1>
             <h1>Population</h1>
+            <h1>Region</h1>
             <h1>Area</h1>
         </div>
       
         {
-            countries.map(country=> <Country name={country.name.common} population={country.population} area={country.area}></Country> )
+            countries.map(country=> <Country country={country}></Country> )
         }
     </div>
   )
