@@ -2,5 +2,12 @@
     background-color: chartreuse;
     margin: 20px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+}
+
+.flag
+{
+    width: 50%;
+    margin: 20px 25px;
 }

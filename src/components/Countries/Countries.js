@@ -14,14 +14,15 @@ const Countries = () => {
     <div>
         <h1>Hello from Countries {countries.length} </h1>
         <div className="parameters">
-            <h1>Country Name</h1>
-            <h1>Population</h1>
-            <h1>Region</h1>
-            <h1>Area</h1>
+            <h2>Flag</h2>
+            <h2>Country Name</h2>
+            <h2>Population</h2>
+            <h2>Region</h2>
+            <h2>Area</h2>
         </div>
       
         {
-            countries.map(country=> <Country country={country}></Country> )
+            countries.map(country=> <Country country={country} key={country.cca3}></Country> )
         }
     </div>
   )
