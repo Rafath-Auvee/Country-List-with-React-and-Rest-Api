@@ -1,7 +1,3 @@
 {
-  "compilerOptions": {
-    "baseUrl": "./src",
-    "checkJs": true,
-    "jsx": "react"
-  }
+  "exclude":["node_modules"]
 }
